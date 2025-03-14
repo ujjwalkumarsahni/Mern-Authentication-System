@@ -100,7 +100,7 @@ const ResetPassword = () => {
           <p className='text-center mb-6 text-indigo-300'>Enter your register email address</p>
           <div className="flex items-center gap-3 w-full rounded-full mb-4 px-5 py-2.5 bg-[#333A5C]">
             <img src={assets.mail_icon} alt="" />
-            <input className="bg-transparent outline-none" onChange={e => setEmail(e.target.value)} value={email} type="email" placeholder="Enter Email id" required />
+            <input className="bg-transparent outline-none text-white" onChange={e => setEmail(e.target.value)} value={email} type="email" placeholder="Enter Email id" required />
           </div>
 
           <button className="w-full rounded-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white font-medium">
@@ -130,7 +130,7 @@ const ResetPassword = () => {
           <p className='text-center mb-6 text-indigo-300'>Enter the new password</p>
           <div className="flex items-center gap-3 w-full rounded-full mb-4 px-5 py-2.5 bg-[#333A5C]">
             <img src={assets.lock_icon} alt="" />
-            <input className="bg-transparent outline-none" onChange={e => setNewPassword(e.target.value)} value={newPassword} type="password" placeholder="Enter new password" required />
+            <input className="bg-transparent outline-none text-white" onChange={e => setNewPassword(e.target.value)} value={newPassword} type="password" placeholder="Enter new password" required />
           </div>
 
           <button className="w-full rounded-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white font-medium">
