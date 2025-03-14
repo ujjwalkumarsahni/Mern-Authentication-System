@@ -18,9 +18,9 @@ This project is the **client-side** of a full-stack authentication system built 
 - Tailwind CSS (for styling)
 
 ## 📸 Screenshots
-![Home Page](../Mern-Authentication-System/client/src/assets/homePage.png)
-![Login Page](../Mern-Authentication-System/client/src/assets/loginPage.png)
-![Reset Password](../Mern-Authentication-System/client/src/assets/resetPage.png)
+![Home Page](./client/src/assets/homePage.png)
+![Login Page](./client/src/assets/loginPage.png)
+![Reset Password](./client/src/assets/resetPage.png)
 
 ## 🔗 Live Demo
 [Click here to view the live app](https://mern-auth-frontend-nb6e.onrender.com/)
